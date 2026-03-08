@@ -1,7 +1,8 @@
 # Project Repository
 
 ## Overview
-This repository contains the starter files for the project. It is managed with **Claude Code**, an AI‑assisted development environment that helps you:
+
+This repository contains the starter files for the project, including a simple command‑line Tic‑Tac‑Toe game (`tic_tac_toe.py`). It is managed with **Claude Code**, an AI‑assisted development environment that helps you:
 
 - Create, edit, and navigate code with natural language commands.
 - Execute git operations, run builds, lint, and test directly from the editor.
@@ -13,6 +14,16 @@ This repository contains the starter files for the project. It is managed with *
 - **Version Control**: Run common git workflows (`git init`, `git add`, `git commit`, etc.) without leaving the editor.
 - **Automation**: Leverage built‑in skills like `simplify` and `claude-api` to improve code quality and add AI capabilities.
 - **Task Management**: Track work with the built‑in task list, create worktrees, and manage background processes.
+
+## Tic‑Tac‑Toe Game
+
+The `tic_tac_toe.py` script implements a simple two‑player command‑line tic‑tac‑Toe game. Run it with:
+
+```bash
+python tic_tac_toe.py
+```
+
+Players take turns entering a number 1‑9 to place their mark (X or O) on the board. The game announces a win or a draw and then exits.
 
 ## Getting Started
 ```bash
